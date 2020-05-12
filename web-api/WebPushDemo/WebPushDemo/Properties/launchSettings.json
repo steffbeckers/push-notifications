@@ -10,8 +10,7 @@
   "profiles": {
     "WebPushDemo": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "applicationUrl": "http://localhost:50232/"
+      "applicationUrl": "http://localhost:5000/"
     },
     "IIS Express": {
       "commandName": "IISExpress",

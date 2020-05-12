@@ -1,0 +1,11 @@
+<span>Receive notifications?</span>
+<input
+  type="checkbox"
+  [(ngModel)]="receiveNotifications"
+  (change)="toggledReceiveNotifications()"
+/>
+<br />
+<br />
+<button type="button" (click)="sendNotificationFromBackend()">
+  Send test notification
+</button>
